@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MongoDB using Mongoose</title>
+  </head>
+  <body>
+    <h1>Orders</h1>
+    <form action="/" method="post">
+      <input name="ordername" type="text" placeholder="enter order name" />
+      <input name="orderdesc" type="text" placeholder="enter order detail" />
+      <input name="orderprice" type="number" placeholder="enter price" />
+      <input name="orderrating" type="number" placeholder="enter rating" />
+      <button type="submit" name="mybtn">Submit</button>
+    </form>
+
+    <h1>List</h1>
+    <form action="/" method="post">
+      <input name="listname" type="text" placeholder="enter list name" />
+      <input name="listdesc" type="text" placeholder="enter list detail" />
+      <input name="listprice" type="number" placeholder="enter price" />
+      <button type="submit" name="btn">Submit</button>
+    </form>
+    <br />
+    <form action="/" method="patch">
+      <input type="text" name="updatename" placeholder="update your name" />
+      <button type="submit">Update in MongoDB</button>
+    </form>
+  </body>
+</html>
